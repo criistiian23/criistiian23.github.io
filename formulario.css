@@ -1,0 +1,68 @@
+.btn{
+    border-radius: 3px;
+    display: inline block;
+    padding: 20px 15px;
+    text-decoration: none;
+
+}
+
+.btn-green{
+    color: white;
+    background-color: #3cc93f;
+
+}
+.btn-green:hover{
+    background-color: #37B839;
+}
+.btn-green:active{
+    background-color: #29962A;
+}
+
+form{
+    width: 300px;
+    margin:0 auto;
+    background-color: white;
+    padding: 20px;
+    color: grey;
+    border-radius: 3px;
+   
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 100px;
+
+
+
+}
+input, textarea{
+    outline: none;
+    border: 0;
+    width: 280px;
+
+}
+.field{
+   border: solid 1px #ccc; 
+   padding: 10px;
+   width: 280px;
+}
+.field:focus{
+    border-color:#18a383 ;
+}
+.center-content{
+    text-align: center;
+}
+h1{
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background: url(img/astronauta.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+img{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-left: 400px;
+}
